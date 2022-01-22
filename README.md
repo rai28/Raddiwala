@@ -1,3 +1,3 @@
 # Raddiwala
 
-SartUp.
+StartUp.
