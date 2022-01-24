@@ -1,0 +1,85 @@
+body{
+	background-color: #232323;
+}
+.head1{
+	color: whitesmoke;
+	text-align: center;
+	margin-bottom: 5%;
+}
+span{
+	color: #00ff00;
+
+}
+.to{
+	color: whitesmoke;
+	font-size: 40px;
+	font-weight: bold;
+}
+.mid{
+	text-align: center;
+	margin-bottom: 5%;
+}
+.btn{
+	text-align: center;
+}
+.lin{
+	color: whitesmoke;
+}
+.rdw{
+	color: black;
+}
+
+/*for page3raddiwala.html  */
+
+.topline{
+	color: whitesmoke;
+	text-align: center;
+	font-size: 30px;
+	/*font-weight: bold;*/
+
+}
+
+.step1text{
+	color :whitesmoke;
+	font-size: 30px;
+	padding-left: 15%;
+	padding-bottom: 1;
+	
+}
+.but-paper{
+	color: #000;
+  background-color: #00ff00;
+  margin-left: 15%;
+}
+.but-plastic{
+	color: #000;
+  background-color: #ff0066;
+  margin-left: 2%;
+}
+.but-metal{
+	color: #000;
+  background-color: #ffff33;
+  margin-left: 2%;
+}
+
+.step2text{
+	color :whitesmoke;
+	font-size: 30px;
+	padding-left: 15%;
+	padding-top: 2%;
+}
+.but-vou{
+	color: #000;
+	background-color: #ff3300;
+	margin-left: 15%;
+}
+.but-money{
+	color: #000;
+	background-color: #E3EFD9;
+	margin-left: 7%;
+}
+/*.line1{
+	font-size: 30px;
+	font-weight: bold;
+}*/
+
