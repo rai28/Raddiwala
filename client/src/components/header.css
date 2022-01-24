@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito');
+
+body{
+	background-color: #232323;
+    margin: 0;
+    padding: 0;
+}
+.head1{
+	color: whitesmoke;
+    font-family:Nunito;
+    font-weight: 900;
+	text-align: center;
+	margin-bottom: 5%;
+    font-size: 4em;
+    width:100%;
+    margin-top:1.75em;
+}
+
+span{
+	color: #00ff00;
+}
+
+.to{
+	color: whitesmoke;
+	font-size: 40px;
+	font-weight: bold;
+}
+.mid{
+	text-align: center;
+	margin-bottom: 5%;
+}
+.btn{
+	text-align: center;
+}
+.lin{
+	color: whitesmoke;
+}
+.rdw{
+    margin-bottom: 22px;
+    margin-right: 6px;
+	color: black;
+}
+.img1{
+	padding-right: 3%;
+}
+.img2{
+	padding-left: 3%;
+}
+
+/*for page3raddiwala.html  */
+
+.topline{
+	color: whitesmoke;
+	text-align: center;
+	font-size: 30px;
+	/*font-weight: bold;*/
+
+}
+
+.step1text{
+	color :whitesmoke;
+	font-size: 30px;
+	padding-left: 15%;
+	padding-bottom: 1;
+	
+}
+.but-paper{
+	color: #000;
+  background-color: #00ff00;
+  margin-left: 15%;
+}
+.but-plastic{
+	color: #000;
+  background-color: #ff0066;
+  margin-left: 2%;
+}
+.but-metal{
+	color: #000;
+  background-color: #ffff33;
+  margin-left: 2%;
+}
+.fonthead{
+    font-family: "Nunito",sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: whitesmoke;
+    text-decoration: none;
+    color: #ffcc00;
+}
+.topleft{
+    font-family: "Nunito",sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    color: whitesmoke;
+    text-decoration: none;
+}
+.topleft:hover{
+    color: white;
+}
+.special-c{
+    font-size: 150%;
+    display: inline-block;
+    color:greenyellow;
+    transition-duration: 500ms;
+}
+.step2text{
+	color :whitesmoke;
+	font-size: 30px;
+	padding-left: 15%;
+	padding-top: 2%;
+}
+.but-vou{
+	color: #000;
+	background-color: #ff3300;
+	margin-left: 15%;
+}
+.but-money{
+	color: #000;
+	background-color: #E3EFD9;
+	margin-left: 7%;
+}
+
+.btn-custom{
+    color:white;
+    font-size: 30px;
+    font-family:Nunito;
+    font-weight: 900;
+    background: #F73D6ACC;
+    border-radius: 8px;
+}
+
+.btn-custom:hover{
+    cursor: pointer;
+    color:white;
+    background: crimson;
+}
+
+.btn-custom2{
+    color: #000000;
+    background: #FFED47E0;
+    margin-right:20px
+}
+.btn-custom2:hover{
+    background: #e2a600;
+    transition-duration: 500ms;
+}
+button > span{
+    color: #000000;
+    font-size: 25px;
+    font-family:Nunito;
+    font-weight: 900;
+    border-bottom: 2px solid black;
+}
+.rewards-header-a{
+    margin-right: 3.5em;
+    font-family:Nunito;
+    font-weight: 900;
+    color: white;
+    border-bottom: 3px solid #ff8282;
+}
+.topleft .special-c:hover{
+    color: greenyellow;
+    transform: rotateY(180deg);
+    transition-duration: 500ms;
+}
+@media only screen and (max-width: 1000px) {
+    .rewards-header-a{
+      border-bottom: none;
+    }
+  }
+
+.logo-tag{
+    text-align: center;
+    margin-top:-25px;
+    margin-bottom:40px;
+}
+
+.img-tags{
+    color: white;
+    font-family: Nunito;
+    font-size:22px;
+    font-weight: 900;
+    margin-right:4.7em;
+    margin-left:4.7em;
+}
+
