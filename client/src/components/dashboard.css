@@ -21,28 +21,35 @@ body {
     margin: 0;
     justify-content: space-around;
     padding: 0;
+    height:150px;
 }
 
 .logo {
-    margin-top: 20px;
-    padding: 18px;
+    margin-top: 5px;
+    padding: 45px;
+    margin-left: -16px;
 }
 
 .name {
-    margin: 32px 32px;
-    margin-left: 0px;
+    margin: 50px 60px;
+    margin-left: -39px;
     padding-bottom: 3rem;
     color: white;
-    border-bottom: 3px solid white;
+    font-weight: 900;
 }
-
-h1>span {
+#notHover{
+font-size: 29px;
+margin-bottom: 500px;
+}
+#onHover {
     display: inline-block;
     font-size: 2.5rem;
     transition-duration: 500ms;
+    font-size: 3rem;
+    color: greenyellow;
 }
 
-span:hover {
+#onHover:hover {
     color: greenyellow;
     transform: rotateY(180deg);
     transition-duration: 500ms;
@@ -167,15 +174,15 @@ span:hover {
     width: 50%;
 }
 
-div>h1 {
+.TitleD1 {
     margin-left: 114px;
     margin-top: 80px;
-    margin-bottom: 0px;
+    margin-bottom: 15px;
     color: aliceblue;
     font-weight: 800;
 }
 
-div>h2 {
+.TitleD2{
     margin-left: 114px;
     margin-bottom: 80px;
     color: aliceblue;
@@ -293,6 +300,7 @@ div>h2 {
 }
 
 .box>h2 {
+    color: white;
     display: inline-block;
     text-align: center;
     font-weight: 900;
@@ -304,7 +312,7 @@ div>h2 {
 .box ul li {
     list-style: none;
     text-align: left;
-    margin-top: -2rem;
+    margin-top: -0rem;
     margin-left: 1rem;
     padding: 2rem;
 }
@@ -321,7 +329,7 @@ div>h2 {
 
 .box ul li img {
     margin: 25px 25px;
-    margin-bottom: -5px;
+    margin-bottom: 30px;
 }
 
 a.effect-underline:after {
