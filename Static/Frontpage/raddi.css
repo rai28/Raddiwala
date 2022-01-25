@@ -48,56 +48,163 @@ span{
 .step1text{
 	color :whitesmoke;
 	font-size: 30px;
-	padding-left: 15%;
+	padding-left: 0;
 	padding-bottom: 1;
-	
-}
-.but-paper{
-	color: #000;
-  background-color: #00ff00;
-  margin-left: 15%;
-		font-weight:bold;
-}
-.but-plastic{
-	color: #000;
-  background-color: #ff0066;
-  margin-left: 2%;
-		font-weight:bold;
-}
-.but-metal{
-	color: #000;
-  background-color: #00E6A1;
-  margin-left: 2%;
-		font-weight:bold;
+	border-bottom: 3px solid #6FBB33;
+	margin-right:27.7em;
+	margin-left:6.5em;
+	margin-bottom:1.25em;
+	font-weight: 900;
 }
 
 .step2text{
 	color :whitesmoke;
 	font-size: 30px;
-	padding-left: 15%;
+	padding-left: 0;
 	padding-top: 2%;
+	margin-right:25.5em;
+	margin-left:6.5em;
+	border-bottom: 3px solid #6FBB33;
+	margin-bottom:1.25em;
+	font-weight: 900;
+}
 
-}
-.but-vou{
-	color: #000;
-	background-color: #ff3300;
-	margin-left: 15%;
-	font-weight:bold;
-}
-.but-money{
-	color: #000;
-	background-color: #E3EFD9;
-	margin-left: 7%;
-	font-weight:bold;
-	
-}
-/*.line1{
-	font-size: 30px;
-	font-weight: bold;
-}*/
-.but-everything{
-		color: #000;
-  background-color: #E3EFD9;
-  margin-left: 2%;
-		font-weight:bold;
-}
+
+.btn_choose_sent input {
+	-webkit-appearance: none;
+	display: block;
+	margin: 10px;
+	width: 18px;
+	height: 18px;
+	border-radius: 12px;
+	cursor: pointer;
+	vertical-align: middle;
+	box-shadow: hsla(0,0%,100%,.15) 0 1px 1px, inset hsla(0,0%,0%,.5) 0 0 0 1px;
+	background-color: hsla(0,0%,0%,.2);
+		background-image: -webkit-radial-gradient( #fff 0%, #fff 15%, #fff 28%, #fff 70% );
+	background-repeat: no-repeat;
+	-webkit-transition: background-position .15s cubic-bezier(.8, 0, 1, 1),
+	  -webkit-transform .25s cubic-bezier(.8, 0, 1, 1);
+	outline: none;
+  }
+  .btn_choose_sent input:checked {
+	-webkit-transition: background-position .2s .15s cubic-bezier(0, 0, .2, 1),
+	  -webkit-transform .25s cubic-bezier(0, 0, .2, 1);
+  }
+  .btn_choose_sent input:active {
+	-webkit-transform: scale(1.5);
+	-webkit-transition: -webkit-transform .1s cubic-bezier(0, 0, .2, 1);
+  }
+  
+  
+  
+  /* The up/down direction logic */
+  
+  .btn_choose_sent input,
+  .btn_choose_sent input:active {
+	background-position: 0 24px;
+  }
+  .btn_choose_sent input:checked {
+	background-position: 0 0;
+  }
+  .btn_choose_sent input:checked ~ input,
+   .btn_choose_sent input:checked ~ input:active {
+	background-position: 0 -24px;
+  }
+  
+  .btn_choose_sent{
+		  background: #EF2D56;
+	  color: rgb(0, 0, 0);
+	  box-shadow: 0 10px 20px rgba(125, 147, 178, .3);
+	  border: none; 
+	   border-radius: 3px;
+	  font-size: 16px;
+	  line-height: 10px;
+	  padding:  16px 20px 16px 38px;
+	  text-align: center;
+	  display: inline-block;
+	  text-decoration: none;
+	  margin-right: 30px;
+	  transition: all .3s;
+	  height: auto;
+	  cursor: pointer;
+	  position: relative;
+	  outline: none;
+	  font-size: 1.3rem;
+	  font-weight:900;
+  }
+  
+  .btn_choose_sent input{
+	  position: absolute;
+	  left: 0;
+	  right: 0;
+	  z-index: 99;
+	  top: 2px;
+  }
+  
+  .btn_choose_sent input:after{
+	   position: absolute;
+	  content: '';
+	  width: 15rem;
+	  left: 0;
+	  right: 0;
+	  /* background: red; */
+	  /* z-index: -1; */
+	  height: 40px;
+	  top: -10px;
+  }
+  
+  .bg_btn_chose_1{
+	  margin-left: 190px;
+	  margin-top: 25px;
+	  margin-bottom: 25px;
+	  background-color: #00ff00; !important;
+  }
+  
+  
+  .bg_btn_chose_2{
+	  background-color: #ff0066 !important;
+  }
+  
+  
+  .bg_btn_chose_3{
+	  background-color: #00E6A1 !important;
+  }
+
+  .bg_btn_chose_4{
+	background-color: #ff3300 !important;
+  }
+  .bg_btn_chose_5{
+	background-color: #f6004a !important;
+  }
+  
+  .bg_btn_chose_6{
+	margin-top: 25px;
+	margin-left: 190px;
+	background-color: #7603e2 !important;
+  }
+  .bg_btn_chose_7{
+	background-color: #E3EFD9 !important;
+  }
+  
+  /*-=p=--=*/
+  
+  .btn_choose_sent_check_b{
+		background: #EF2D56;
+	  color: #fff;
+	  box-shadow: 0 10px 20px rgba(125, 147, 178, .3);
+	  border: none; 
+	   border-radius: 3px;
+	  font-size: 16px;
+	  line-height: 10px;
+	  padding:  16px 20px 16px 46px;
+	  text-align: center;
+	  display: inline-block;
+	  text-decoration: none;
+	  margin-right: 30px;
+	  transition: all .3s;
+	  height: auto;
+	  cursor: pointer;
+	  position: relative;
+	  outline: none;
+  }

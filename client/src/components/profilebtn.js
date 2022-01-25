@@ -11,13 +11,12 @@ class ProfileBtn extends Component{
     constructor(){
         super();
     }
-    ontoggle = (event)=>{
+    ontoggle = (event,parent)=>{
         const toggleMenu = document.querySelector('.menu');
         toggleMenu.classList.toggle('active')
     }
     render(){
         return(
-        <div class="action">
         <div class="action">
         <div class="profile">
             <img class="asset/profile-img" src={Ellipse1} alt="logo" onClick={this.ontoggle}/>
@@ -35,7 +34,7 @@ class ProfileBtn extends Component{
             </ul>
         </div>
     </div>  
-    </div>)
+    )
     }
 }
 export default ProfileBtn;
