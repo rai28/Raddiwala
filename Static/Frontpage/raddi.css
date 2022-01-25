@@ -56,16 +56,19 @@ span{
 	color: #000;
   background-color: #00ff00;
   margin-left: 15%;
+		font-weight:bold;
 }
 .but-plastic{
 	color: #000;
   background-color: #ff0066;
   margin-left: 2%;
+		font-weight:bold;
 }
 .but-metal{
 	color: #000;
-  background-color: #ffff33;
+  background-color: #00E6A1;
   margin-left: 2%;
+		font-weight:bold;
 }
 
 .step2text{
@@ -73,19 +76,28 @@ span{
 	font-size: 30px;
 	padding-left: 15%;
 	padding-top: 2%;
+
 }
 .but-vou{
 	color: #000;
 	background-color: #ff3300;
 	margin-left: 15%;
+	font-weight:bold;
 }
 .but-money{
 	color: #000;
 	background-color: #E3EFD9;
 	margin-left: 7%;
+	font-weight:bold;
+	
 }
 /*.line1{
 	font-size: 30px;
 	font-weight: bold;
 }*/
-
+.but-everything{
+		color: #000;
+  background-color: #E3EFD9;
+  margin-left: 2%;
+		font-weight:bold;
+}
