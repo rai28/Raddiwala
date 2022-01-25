@@ -1,15 +1,28 @@
 body{
     background-color: #252525;
 }
+
 .about-head{
-    color: yellow;
+    color: whitesmoke;
     text-align: center;
     font-size: 250%;
-    /* font-weight: bold; */
+    padding-bottom: -2em;
+    display: inline-block;
+    border-bottom: 2px solid #FF7B7B;
+    margin-left: 42%;
+    margin-bottom: 40px;
+ 
 }
+
+
 .content-about{
-    color: whitesmoke;
-    font-size: 120%;
+    color: wheat;
+    font-size: 170%;
+    font-style: italic;
     text-align: center;
-    /* padding-left: 15%; */
+}
+.para{
+    padding-left: 250px;
+    padding-right: 250px;
+    
 }
