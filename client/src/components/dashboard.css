@@ -104,6 +104,12 @@ margin-bottom: 500px;
     visibility: visible;
 }
 
+.action .menu.active2 {
+    opacity: 1;
+    top: 80px;
+    visibility: none;
+}
+
 .action .menu::before {
     background-color: aliceblue;
     content: '';
