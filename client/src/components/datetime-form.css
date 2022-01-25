@@ -1,172 +1,230 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito");
 
-form span {
-    display: block;
-    margin: 20px 0;
-  }
+body {
+  background-color: #252525;
+  font-family: "Nunito", sans-serif;
+  font-weight: 900;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  display: flex;
+  margin: 0;
+  justify-content: space-between;
+  background: #252525;
+  width: 100%;
+  height: 100px;
+}
 
+.logo-header {
+  display: flex;
+  margin: 0;
+  justify-content: space-around;
+  padding: 0;
+}
+
+.logo {
+  margin-top: 20px;
+  padding: 18px;
+}
+
+.name {
+  margin: 32px 32px;
+  margin-left: 0px;
+  padding-bottom: 3rem;
+  color: white;
+  border-bottom: 3px solid white;
+}
+
+#onHover {
+  display: inline-block;
+  font-size: 2.5rem;
+  transition-duration: 500ms;
+}
+
+#onHover:hover {
+  color: greenyellow;
+  transform: rotateY(180deg);
+  transition-duration: 500ms;
+}
+
+form span {
+  display: block;
+  margin-top: 20px 0;
+  margin-left: 40%;
+  margin-top: 90px;
+}
 button,
 input,
 select,
 textarea {
   font-size: 100%;
 }
-
 .day1 {
-    display: inline-block;
-    padding: 20px;
-    padding-top: 5px;
-  }
-  .month1 {
-    display: inline-block;
-    padding: 20px;
-    padding-top: 5px;
-  }
-  .year1 {
-    display: inline-block;
-    padding: 20px;
-    padding-top: 5px;
-  }
-  .pickup-date {
-    margin-left: 35%;
-    margin-top: 6%;
-  }
-  .pickup-time {
-    margin-left: 35%;
-    display: block;
-    padding: 20px;
-  }
-  .pickup-time-input {
-    margin-left: 35%;
-    display: block;
-    padding: 20px;
-  }
-
-  #textbox1 {
-    height: 150px;
-    width: 400px;
-    font-size: 14pt;
-    border-radius: 1em;
-    border: 3.5px solid #ef9c9c;
-    background-color: #252525;
-  
-    color: white;
-  }
-  
-  
-  #textbox1:focus {
-    outline: none;
-  }
-
-  input[type="text"] {
-    width: 100px;
-    transition: width 0.35s ease-in-out;
-  }
-  
-  input[type="text"]:focus {
-    width: 250px;
-  }
-
-
-  .inputbox2 {
-    display: inline-block;
-    margin-right: 2em;
-  }
-  .addr {
-    margin-left: 35%;
-    padding: 20px;
-    overflow: hidden;
-  }
-  .input-info {
-    margin-left: 35%;
-    padding: 20px;
-  }
-  #textbox2 {
-    font-size: 14pt;
-    border: 3.5px solid #ef9c9c;
-    background-color: #252525;
-    color: white;
-    border-radius: .43em;
-    height:30px
-  }
-
-  .main-div {
-    font-size: 25px;
-    margin-top: -80px;
-
+  display: inline-block;
+  padding: 20px;
+  padding-top: 5px;
 }
 
+.pickup-date {
+  margin-left: 35%;
+  margin-top: 6%;
+  margin-bottom: -40px;
+}
+
+.pickup-time {
+  margin-left: 35%;
+  display: block;
+  padding: 20px;
+  margin-top: -20px;
+}
+.pickup-time-input {
+  margin-left: 35%;
+  display: block;
+  padding: 20px;
+}
+
+#textbox1 {
+  height: 150px;
+  width: 400px;
+  font-size: 14pt;
+  border-radius: 1em;
+  border: 3.5px solid #ef9c9c;
+  background-color: #252525;
+
+  color: white;
+}
+
+#textbox1:focus {
+  outline: none;
+}
+
+input[type="text"] {
+  width: 100px;
+  transition: width 0.35s ease-in-out;
+}
+
+input[type="text"]:focus {
+  width: 250px;
+}
+.inputbox2 {
+  display: inline-block;
+  margin-right: 2em;
+}
+.addr {
+  margin-left: 35%;
+  padding: 20px;
+  overflow: hidden;
+}
+.input-info {
+  margin-left: 35%;
+  padding: 20px;
+}
+#textbox2 {
+  font-size: 14pt;
+  border: 3.5px solid #ef9c9c;
+  background-color: #252525;
+  color: white;
+  border-radius: 0.43em;
+  height: 30px;
+}
+.main-div {
+  font-size: 25px;
+  margin-top: -80px;
+}
 .select-para {
-    margin-left: 20px;
-    color:white;
-    font-weight: 900;
-  }
+  margin-left: 20px;
+}
 
-  .btn-form {
-    margin-left: 65%;
-  }
-  
-  .btn-6-form {
-    align-items: center;
-    background-clip: padding-box;
-    background-color: #faff00;
-    border: 1px solid transparent;
-    border-radius: 0.25rem;
-    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
-    box-sizing: border-box;
-    color: black;
-    cursor: pointer;
-    display: inline-flex;
-    font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
-      Arial, sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    justify-content: center;
-    line-height: 1.25;
-    margin: 0;
-    min-height: 3rem;
-    padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
-    position: relative;
-    text-decoration: none;
-    transition: all 250ms;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    vertical-align: baseline;
-    width: 150px;
-    margin-left: 80px;
-  }
-  
-  .btn-6-form:hover,
-  .btn-6-form:focus {
-    background-color: #faff00;
-    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
-  }
-  
-  .btn-6-form:hover {
-    transform: translateY(-5px);
-  }
-  
-  .btn-6-form:active {
-    background-color: #faff00;
-    box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
-    transform: translateY(0);
-  }
-#day,#year,#month,#appt{
-     font-size: 14pt;
-    border: 3.5px solid #ef9c9c;
-    background-color: #252525;
-    color: white;
-    border-radius: .43em;
-    height:30px  
-  }
-  select::-webkit-scrollbar {
-    width: 8px;
-    background-color:#ef9c9c;
-   }
+.btn-form{
+  margin-left: 65%;
+}
 
+.btn-6-form{
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #faff00;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: black;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: 150px;
+  margin-left: 80px;
+}
 
-.label-class{
-    font-weight: 900;
-    color:white;
+.btn-6-form:hover,
+.btn-6-form:focus {
+  background-color: #faff00;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.btn-6-form:hover {
+  transform: translateY(-5px);
+}
+
+.btn-6-form:active {
+  background-color: #faff00;
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  transform: translateY(0);
+}
+#day,
+#year,
+#month,
+#appt {
+  font-size: 14pt;
+  border: 3.5px solid #ef9c9c;
+  background-color: #252525;
+  color: white;
+  border-radius: 0.43em;
+  height: 30px;
+}
+select::-webkit-scrollbar {
+  width: 8px;
+  background-color: #ef9c9c;
+}
+
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+input[type="date"] {
+  background-color: #252525;
+  transform: translate(-50%, -50%);
+
+  font-family: "Roboto Mono", monospace;
+  color: #ef9c9c;
+  font-size: 18px;
+  border: solid;
+  outline: none;
+  border-radius: 5px;
+  margin-left: 15px;
+}
+::-webkit-calendar-picker-indicator {
+  background-color: #ef9c9c;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 3px;
 }
