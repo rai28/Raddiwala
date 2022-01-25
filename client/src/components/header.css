@@ -16,10 +16,10 @@ body{
     margin-top:1.75em;
 }
 
-span{
+.title{
 	color: #00ff00;
+    font-size:65px;
 }
-
 .to{
 	color: whitesmoke;
 	font-size: 40px;
@@ -141,10 +141,18 @@ span{
     margin-right:20px
 }
 .btn-custom2:hover{
+    color: #000000;
     background: #e2a600;
     transition-duration: 500ms;
 }
-button > span{
+.Signup-btn{
+    color: #000000;
+    font-size: 25px;
+    font-family:Nunito;
+    font-weight: 900;
+    border-bottom: 2px solid black;
+}
+.Signup-btn:hover{
     color: #000000;
     font-size: 25px;
     font-family:Nunito;
@@ -158,7 +166,7 @@ button > span{
     color: white;
     border-bottom: 3px solid #ff8282;
 }
-.topleft .special-c:hover{
+.special-c:hover{
     color: greenyellow;
     transform: rotateY(180deg);
     transition-duration: 500ms;
@@ -184,3 +192,10 @@ button > span{
     margin-left:4.7em;
 }
 
+.rewards-header-a:hover{
+    margin-right: 3.5em;
+    font-family:Nunito;
+    font-weight: 900;
+    color: white;
+    border-bottom: 3px solid #ff8282;
+}
