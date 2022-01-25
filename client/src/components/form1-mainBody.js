@@ -13,7 +13,7 @@ return (
 			<h1 class="step1text">Select Waste Type</h1>
 									
 			<button type="button" class="btn_choose_sent bg_btn_chose_1 custom-btn-radio_1">
-				<input type="radio" name="name" checked />Paper 📰
+				<input type="radio" name="name" />Paper 📰
 			</button>
 			<button type="button" class="btn_choose_sent bg_btn_chose_2 custom-btn-radio_2">
 				<input type="radio" name="name" />Plastic 🛍️

@@ -4,6 +4,7 @@ import DashBoard from "./screens/DashBoard";
 import { HashRouter, Route } from "react-router-dom";
 import Header from "./components/header";
 import Form1 from "./screens/form1";
+import DateTimeForm from "./screens/DateTimeForm";
 function App() {
   return (
     <HashRouter>
@@ -15,7 +16,7 @@ function App() {
         <Route path="/" component={HomeScreen} exact />
         <Route path="/DashBoard" component={DashBoard} exact />
         <Route path="/Form1" component={Form1} exact />
-
+        <Route path="/Datetime" component={DateTimeForm} exact />
       </main>
     </HashRouter>
   );
