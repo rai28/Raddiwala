@@ -10,17 +10,17 @@ import img5d from "../assets/img5d.png"
 class ProfileBtn extends Component{
     constructor(){
         super();
-
     }
-    ontoggle(event){
-
+    ontoggle = (event)=>{
+        const toggleMenu = document.querySelector('.menu');
+        toggleMenu.classList.toggle('active')
     }
     render(){
         return(
         <div class="action">
         <div class="action">
         <div class="profile">
-            <img class="asset/profile-img" src={Ellipse1} alt="logo"/>
+            <img class="asset/profile-img" src={Ellipse1} alt="logo" onClick={this.ontoggle}/>
         </div>
         <div class="menu">
             <h3>
