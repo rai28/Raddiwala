@@ -43,6 +43,9 @@ span:hover {
   transform: rotateY(180deg);
   transition-duration: 500ms;
 }
+
+/* -------------------------- */
+
 .rewards-logo {
   margin-top: -20px;
   margin-left: 43%;
@@ -62,14 +65,15 @@ span:hover {
   font-size: 3em;
   border-bottom: 3px solid #ff8282;
   padding-bottom: 2px;
+  padding-left: 13%;
 }
 .services-heading-box {
   margin: 8rem 0 2rem 4rem;
 }
 .services-heading {
   font-family: "Nunito", sans-serif;
-  font-size: 25px;
-  font-weight: bolder;
+  font-size: 50px;
+  font-weight: 900;
   border: 2px solid #000000;
   max-width: fit-content;
   border-radius: 10px;
@@ -121,8 +125,8 @@ span:hover {
 }
 .services-card-text {
   font-family: "Nunito", sans-serif;
-  font-size: 15px;
-  font-weight: bold;
+  font-size: 20px;
+  font-weight: 900;
   color: #ffffff;
   text-align: center;
   padding: 0 1rem;

@@ -11,7 +11,5 @@ export default function Form1(){
     <Header2/>
     <FormMainBody/>
   </div>
-
-
  )
 }

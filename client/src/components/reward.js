@@ -1,24 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
- <meta charset="UTF-8">
- <meta http-equiv="X-UA-Compatible" content="IE=edge">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <link rel="stylesheet" href="styles.css">
- <title>REWARDS</title>
-</head>
-<body>
- <!-- Header -->
+import React from "react";
+import {Link} from "react-router-dom";
+import img18 from "../assets/image18.png"
+import img19 from "../assets/image19.png"
+import img20 from "../assets/image20.png"
+import img21 from "../assets/image21.png"
+import "./reward.css"
 
+
+const RewardComponent=()=>{
+return(
+<div>
 <div class="rewards-logo">
   <h1 class="rewards-h1">REWARDS</h1>
- <img class="reward-image" src="image18.png" alt="">
+ <img class="reward-image" src={img18} alt=""/>
 </div>
  <div class="services-cards-component-root" id="services-provided">
   <div class="services-cards-box">
    <div class="services-card">
     <div class="services-card-image-box">
-     <img class="services-card-image" src="image19.png" alt="servicePsychiatristPNG" />
+     <img class="services-card-image" src={img19} alt="servicePsychiatristPNG" />
     </div>
     <div class="services-card-text-box">
      <h1 class="services-card-heading">Cash</h1>
@@ -33,7 +33,7 @@
    </div>
    <div class="services-card">
     <div class="services-card-image-box">
-     <img class="services-card-image" src="image20.png"  alt="servicePsychiatristPNG" />
+     <img class="services-card-image" src={img20}  alt="servicePsychiatristPNG" />
     </div>
     <div class="services-card-text-box">
      <h1 class="services-card-heading">Amazing Vouchers</h1>
@@ -48,10 +48,10 @@
    </div>
    <div class="services-card">
     <div class="services-card-image-box">
-     <img class="services-card-image" src="image21.png" alt="servicePsychiatristPNG" />
+     <img class="services-card-image" src={img21} alt="servicePsychiatristPNG" />
     </div>
     <div class="services-card-text-box">
-     <h1 class="services-card-heading">NaturalEnvironment<h1>
+     <h1 class="services-card-heading">NaturalEnvironment</h1>
      <p class="services-card-text">
      Create Hygenic and Clean Surroundics around you
      </p>
@@ -63,8 +63,8 @@
    </div>
   </div>
  </div>
+</div>
+);
+}
 
-
-  
-</body>
-</html>
+export default RewardComponent;
