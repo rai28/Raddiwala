@@ -7,7 +7,7 @@ import Form1 from "./screens/form1";
 import DateTimeForm from "./screens/DateTimeForm";
 import AboutPage from "./screens/AboutPage";
 import Reward from "./screens/Reward";
-
+import History from "./screens/History"
 function App() {
   return (
     <HashRouter>
@@ -21,7 +21,8 @@ function App() {
         <Route path="/Form1" component={Form1} exact />
         <Route path="/Datetime" component={DateTimeForm} exact />
         <Route path="/About" component={AboutPage} exact />
-        <Route path="/Rewards" component={Reward}/>
+        <Route path="/Rewards" component={Reward} exact/>
+        <Route path="/History" component={History} exact/>
       </main>
     </HashRouter>
   );
