@@ -33,8 +33,8 @@ import "./datetime-form.css"
 <input id="textbox2" type="text"  name="state"/></div>
 </div>
 
-<div class="btn">
-<button class="btn-6" type="submit">Submit</button></div>
+<div class="btn-form">
+<button class="btn-6-form" type="submit">Submit</button></div>
    </form>
    
 </div>
