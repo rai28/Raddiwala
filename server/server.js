@@ -1,6 +1,7 @@
 const express = require("express");
-const userAuthApis = require("./routes/userControllers/userAuthApis");
 const connectDB = require("./db/mongoose");
+// routers import
+const userRouter = require("./routes/users/userRouter");
 
 // MongoDB Connection Fire
 connectDB();
@@ -19,6 +20,9 @@ app.use(
 app.get("/", (req, res) => {
   res.send("Raddiwala Server Works!!");
 });
+
+// user routes
+app.use("/api/user", userRouter);
 
 // PORT for main server
 const PORT = process.env.PORT || 5000;
