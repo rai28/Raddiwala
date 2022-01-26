@@ -2,7 +2,7 @@ const express = require("express");
 const connectDB = require("./db/mongoose");
 // routers import
 const userRouter = require("./routes/users/userRouter");
-
+const orderRouter = require("./routes/orders/orderRouter");
 // MongoDB Connection Fire
 connectDB();
 
@@ -23,6 +23,9 @@ app.get("/", (req, res) => {
 
 // user routes
 app.use("/api/user", userRouter);
+
+// order routes
+app.use("/api/order", orderRouter);
 
 // PORT for main server
 const PORT = process.env.PORT || 5000;
