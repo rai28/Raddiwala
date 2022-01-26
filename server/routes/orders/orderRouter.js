@@ -27,12 +27,13 @@ orderRouter.post(
       user: userId,
       order: {
         itemType: itemType,
-        city: city,
-        state: state,
-        pincode: pincode,
-        address: address,
+        pickUpAddress: {
+          city: city,
+          state: state,
+          pincode: pincode,
+          address: address,
+        },
         pickUpDate: {
-          date: date,
           time: time,
         },
         redeemMethod: redeemMethod,
