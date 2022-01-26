@@ -1,0 +1,553 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito");
+
+body {
+  background-color: #252525;
+  margin: 0;
+  padding: 0;
+}
+.head1 {
+  color: whitesmoke;
+  font-family: Nunito;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 5%;
+  font-size: 4em;
+  width: 100%;
+  margin-top: 1.75em;
+}
+
+.title {
+  color: #00ff00;
+  font-size: 65px;
+}
+.to {
+  color: whitesmoke;
+  font-size: 40px;
+  font-weight: bold;
+}
+.mid {
+  text-align: center;
+  margin-bottom: 5%;
+}
+.btn {
+  text-align: center;
+}
+.lin {
+  color: whitesmoke;
+}
+.rdw {
+  margin-bottom: 22px;
+  margin-right: 6px;
+  color: black;
+}
+.img1 {
+  padding-right: 3%;
+}
+.img2 {
+  padding-left: 3%;
+}
+
+/*for page3raddiwala.html  */
+
+.topline {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 30px;
+  /*font-weight: bold;*/
+}
+
+.step1text {
+  color: whitesmoke;
+  font-size: 30px;
+  padding-left: 15%;
+  padding-bottom: 1;
+}
+.but-paper {
+  color: #000;
+  background-color: #00ff00;
+  margin-left: 15%;
+}
+.but-plastic {
+  color: #000;
+  background-color: #ff0066;
+  margin-left: 2%;
+}
+.but-metal {
+  color: #000;
+  background-color: #ffff33;
+  margin-left: 2%;
+}
+.fonthead {
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: whitesmoke;
+  text-decoration: none;
+  color: #ffcc00;
+}
+.topleft {
+  font-family: "Nunito", sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+  color: whitesmoke;
+  text-decoration: none;
+}
+.topleft:hover {
+  color: white;
+}
+.special-c {
+  font-size: 150%;
+  display: inline-block;
+  color: greenyellow;
+  transition-duration: 500ms;
+}
+.step2text {
+  color: whitesmoke;
+  font-size: 30px;
+  padding-left: 15%;
+  padding-top: 2%;
+}
+.but-vou {
+  color: #000;
+  background-color: #ff3300;
+  margin-left: 15%;
+}
+.but-money {
+  color: #000;
+  background-color: #e3efd9;
+  margin-left: 7%;
+}
+
+.btn-custom {
+  color: white;
+  font-size: 30px;
+  font-family: Nunito;
+  font-weight: 900;
+  background: #f73d6acc;
+  border-radius: 8px;
+}
+
+.btn-custom:hover {
+  cursor: pointer;
+  color: white;
+  background: crimson;
+}
+
+.btn-custom2 {
+  color: #000000;
+  background: #ffed47e0;
+  margin-right: 20px;
+}
+.btn-custom2:hover {
+  color: #000000;
+  background: #e2a600;
+  transition-duration: 500ms;
+}
+.Signup-btn {
+  color: #000000;
+  font-size: 25px;
+  font-family: Nunito;
+  font-weight: 900;
+  border-bottom: 2px solid black;
+}
+.Signup-btn:hover {
+  color: #000000;
+  font-size: 25px;
+  font-family: Nunito;
+  font-weight: 900;
+  border-bottom: 2px solid black;
+}
+.rewards-header-a {
+  margin-right: 3.5em;
+  font-family: Nunito;
+  font-weight: 900;
+  color: white;
+  border-bottom: 3px solid #ff8282;
+}
+.special-c:hover {
+  color: greenyellow;
+  transform: rotateY(180deg);
+  transition-duration: 500ms;
+}
+@media only screen and (max-width: 1000px) {
+  .rewards-header-a {
+    border-bottom: none;
+  }
+}
+
+.logo-tag {
+  text-align: center;
+  margin-top: -25px;
+  margin-bottom: 40px;
+}
+
+.img-tags {
+  color: white;
+  font-family: Nunito;
+  font-size: 22px;
+  font-weight: 900;
+  margin-right: 4.7em;
+  margin-left: 4.7em;
+}
+
+.rewards-header-a:hover {
+  margin-right: 3.5em;
+  font-family: Nunito;
+  font-weight: 900;
+  color: white;
+  border-bottom: 3px solid #ff8282;
+}
+@import url("https://fonts.googleapis.com/css2?family=Nunito");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+}
+
+.header {
+  display: flex;
+  margin: 0;
+  justify-content: space-between;
+  background: #252525;
+  width: 100%;
+  height: 100px;
+}
+
+.logo-header {
+  display: flex;
+  margin: 0;
+  justify-content: space-around;
+  padding: 0;
+  height: 150px;
+}
+
+.logo {
+  margin-top: 5px;
+  padding: 45px;
+  margin-left: -16px;
+}
+
+.name {
+  margin: 50px 60px;
+  margin-left: -39px;
+  padding-bottom: 3rem;
+  color: white;
+  font-weight: 900;
+}
+#notHover {
+  font-size: 29px;
+  margin-bottom: 500px;
+}
+#onHover {
+  display: inline-block;
+  font-size: 2.5rem;
+  transition-duration: 500ms;
+  font-size: 3rem;
+  color: greenyellow;
+}
+
+#onHover:hover {
+  color: greenyellow;
+  transform: rotateY(180deg);
+  transition-duration: 500ms;
+}
+
+.icons-size {
+  color: #333;
+  font-size: 14px;
+}
+
+.action {
+  position: fixed;
+  right: 30px;
+  top: 20px;
+}
+
+.action .profile {
+  border-radius: 50%;
+  cursor: pointer;
+  height: 60px;
+  overflow: hidden;
+  position: relative;
+  width: 60px;
+}
+
+.action .profile img {
+  width: 100%;
+  top: 0;
+  position: absolute;
+  object-fit: cover;
+  left: 0;
+  height: 100%;
+}
+
+.action .menu {
+  background-color: aliceblue;
+  box-sizing: 0 5px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  padding: 10px 20px;
+  position: absolute;
+  right: -10px;
+  width: 200px;
+  transition: 0.5s;
+  top: 120px;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.action .menu.active {
+  opacity: 1;
+  top: 80px;
+  visibility: visible;
+}
+
+.action .menu::before {
+  background-color: aliceblue;
+  content: "";
+  height: 20px;
+  position: absolute;
+  right: 30px;
+  transform: rotate(45deg);
+  top: -5px;
+  width: 20px;
+}
+
+.action .menu h3 {
+  color: #555;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.3em;
+  padding: 20px -10px;
+  text-align: center;
+  width: 100%;
+}
+
+.action .menu ul li {
+  align-items: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: left;
+  list-style: none;
+  padding: 10px 0px;
+}
+
+.action .menu ul li img {
+  max-width: 20px;
+  margin-right: 10px;
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+.action .menu ul li a {
+  display: inline-block;
+  color: #555;
+  font-size: 14px;
+  font-weight: 600;
+  padding-left: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+.action .menu ul li:hover img {
+  opacity: 1;
+}
+
+.action .menu ul li:hover a {
+  color: #db3b0a;
+}
+
+.main {
+  display: flex;
+  height: 100vh;
+  background: #252525;
+}
+
+.dashboard-part1 {
+  display: flex;
+  margin-bottom: auto;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.TitleD1 {
+  margin-left: 114px;
+  margin-top: 80px;
+  margin-bottom: 15px;
+  color: aliceblue;
+  font-weight: 800;
+}
+
+.TitleD2 {
+  margin-left: 114px;
+  margin-bottom: 80px;
+  color: aliceblue;
+  font-weight: 500;
+}
+
+.buttons {
+  margin-left: 114px;
+}
+
+.button-5 {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #c7c12e;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: black;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+  margin-left: 10px;
+}
+
+.button-5:hover,
+.button-5:focus {
+  background-color: #c7c12e;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button-5:hover {
+  transform: translateY(-5px);
+}
+
+.button-5:active {
+  background-color: #c7c12e;
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  transform: translateY(0);
+}
+
+.button-6 {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #99f94e;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: black;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+  margin-left: 80px;
+}
+
+.button-6:hover,
+.button-6:focus {
+  background-color: #99f94e;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button-6:hover {
+  transform: translateY(-5px);
+}
+
+.button-6:active {
+  background-color: #99f94e;
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  transform: translateY(0);
+}
+
+.box {
+  border: 2px solid #ff8282;
+  margin-top: 8%;
+  width: 75%;
+  height: 75%;
+}
+
+.dashboard-part2 {
+  width: 50%;
+  height: 100vh;
+}
+
+.box > h2 {
+  color: white;
+  display: inline-block;
+  text-align: center;
+  font-weight: 900;
+  margin-left: 16rem;
+  margin-top: 4rem;
+  border-bottom: 3px solid #ff8282;
+}
+
+.box ul li {
+  list-style: none;
+  text-align: left;
+  margin-top: -0rem;
+  margin-left: 1rem;
+  padding: 2rem;
+}
+
+.box ul li a {
+  display: inline-block;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  transition-duration: 500ms;
+  position: relative;
+}
+
+.box ul li img {
+  margin: 25px 25px;
+  margin-bottom: 30px;
+}
+
+a.effect-underline:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  height: 1em;
+  width: 100%;
+  border-bottom: 2px solid #ff8282;
+  margin-top: 10px;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(0, 1);
+  transform: scale(0, 1);
+}
+
+a.effect-underline:hover:after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
