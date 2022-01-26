@@ -4,7 +4,7 @@ import img18 from "../assets/image18.png"
 import img19 from "../assets/image19.png"
 import img20 from "../assets/image20.png"
 import img21 from "../assets/image21.png"
-import "./reward.css"
+import "./combined.css"
 
 
 const RewardComponent=()=>{

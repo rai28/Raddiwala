@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import "./datetime-form.css"
+import "./combined.css"
 
   export default function DateForm(){
     return(

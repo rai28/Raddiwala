@@ -1,5 +1,5 @@
 import React from "react";
-import "./form1-mainBody.css"
+import "./combined.css"
 
 const FormMainBody =()=>{
 return (

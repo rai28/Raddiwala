@@ -1,5 +1,5 @@
 import React from "react"
-import "./history.css"
+import "./combined.css"
 
 const HistoryComponent =()=>{
     return(

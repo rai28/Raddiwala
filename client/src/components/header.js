@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from 'react-dom';
 import img3 from '../assets/img3.png'
-import "./header.css"
+import "./combined.css"
 
 const Header =() =>{
     return (

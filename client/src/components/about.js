@@ -1,5 +1,5 @@
 import React from "react";
-import "./about.css"
+import "./combined.css"
 import img3 from "../assets/img3.png"
 
 const About =()=>{
