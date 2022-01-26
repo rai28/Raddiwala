@@ -10,7 +10,7 @@ import "./combined.css"
       
      <div  class="pickup-date"><p>Select Pickup Date :</p>
 </div>
-         <span class="day1"><input type="date"/></span>
+         <span class="day1 tp-span"><input type="date"/></span>
    
 
 <div class="pickup-time">
@@ -25,12 +25,12 @@ import "./combined.css"
 
 <div class="input-info">
 <div class="inputbox2"><label for="pincode">Pincode</label><br/>
-<input id="textbox2"type="text" name="pincode"/><br/></div>
+<input class="tp-form" id="textbox2"type="text" name="pincode"/><br/></div>
 
 <div  class="inputbox2"><label for="city">City</label><br/>
-<input id="textbox2" type="text"  name="city"/><br/></div>
+<input class="tp-form" id="textbox2" type="text"  name="city"/><br/></div>
 <div class="inputbox2"><label for="state">State</label><br/>
-<input id="textbox2" type="text"  name="state"/></div>
+<input class="tp-form" id="textbox2" type="text"  name="state"/></div>
 </div>
 
 <div class="btn-form">

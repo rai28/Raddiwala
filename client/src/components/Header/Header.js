@@ -34,7 +34,7 @@ const Header = () => {
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
               <Link
-                to="#"
+                to="/rewards"
                 className="nav-link active fonthead rewards-header-a"
               >
                 Rewards
@@ -42,9 +42,9 @@ const Header = () => {
             </li>
             <li className="nav-item">
               <Link
-                to="#"
+                to="/about"
                 className="nav-link active fonthead rewards-header-a"
-                href="#"
+               
               >
                 About Us!
               </Link>
