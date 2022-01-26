@@ -25,7 +25,7 @@ import "./combined.css"
 
 <div class="input-info">
 <div class="inputbox2"><label for="pincode">Pincode</label><br/>
-<input class="tp-form" id="textbox2"type="text" name="pincode"/><br/></div>
+<input class="tp-form" id="textbox2" type="text" name="pincode"/><br/></div>
 
 <div  class="inputbox2"><label for="city">City</label><br/>
 <input class="tp-form" id="textbox2" type="text"  name="city"/><br/></div>

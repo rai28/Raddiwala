@@ -3,7 +3,7 @@ import { useSelector } from "react-redux";
 import ProfileDropdown from "../../components/ProfileDropdown";
 import { Link } from "react-router-dom";
 import img3 from "../../assets/img3.png";
-import "./header.css";
+import "../combined.css";
 
 const Header = () => {
   const userSignin = useSelector((state) => state.userSignin);
@@ -43,7 +43,7 @@ const Header = () => {
             <li className="nav-item">
               <Link
                 to="/about"
-                className="nav-link active fonthead rewards-header-a"
+                className="nav-link active fonthead about-header-a"
                
               >
                 About Us!

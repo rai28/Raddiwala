@@ -8,7 +8,7 @@ return(
    <div class="about-body-class">
     <section class="about-section-div">
         <div class = "about-div">
-            <h1 class="aboutsection-title">About Section!</h1>
+            <h1 class="aboutsection-title">About Us!</h1>
         </div>
         <div class="about-div-container">
             <p class="aboutsection-paragraph">

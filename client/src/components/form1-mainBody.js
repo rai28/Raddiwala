@@ -9,8 +9,9 @@ return (
 	</div>
  <div class="container ">
 		<div class="container-fluid p-5 col"></div>
-
-			<h1 class="step1text">Select Waste Type</h1>
+		<div class="step1text-div">
+		<h1 class="step1text">Select Waste Type</h1>
+		</div>
 									
 			<button type="button" class="btn_choose_sent bg_btn_chose_1 custom-btn-radio_1">
 				<input type="radio" name="name" />Paper 📰
@@ -27,8 +28,9 @@ return (
 			<button type="button" class="btn_choose_sent bg_btn_chose_5 custom-btn-radio_5">
 				<input type="radio" name="name" />Everything 🗑️
 			</button>
-
-    <h1 class="step2text">Select Redeem Method</h1>
+<div class="step2text-div">
+<h1 class="step2text">Select Redeem Method</h1>
+</div>
 			<button type="button" class="btn_choose_sent bg_btn_chose_6 custom-btn-radio_6">
 				<input type="radio" name="choose" />Vouchers 🎫
 			</button>

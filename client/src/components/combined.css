@@ -16,10 +16,16 @@
 	padding-left: 0;
 	padding-bottom: 1;
 	border-bottom: 3px solid #6FBB33;
-	margin-right:27.7em;
-	margin-left:6.5em;
 	margin-bottom:1.25em;
+  margin-right: 3em;
 	font-weight: 900;
+  text-align: left;
+}
+
+.step1text-div{
+  margin-right: 60em;
+  margin-left: 12em;
+  width:30em;
 }
 
 .step2text{
@@ -27,11 +33,16 @@
 	font-size: 30px;
 	padding-left: 0;
 	padding-top: 2%;
-	margin-right:25.5em;
-	margin-left:6.5em;
 	border-bottom: 3px solid #6FBB33;
 	margin-bottom:1.25em;
+  margin-right: 1.8em;
 	font-weight: 900;
+}
+
+.step2text-div{
+  margin-right: 60em;
+  margin-left: 12em;
+  width:30em;
 }
 
 
@@ -276,12 +287,12 @@ textarea {
   outline: none;
 }
 
-input[type="text"] {
+#textbox2{
   width: 100px;
   transition: width 0.35s ease-in-out;
 }
 
-input[type="text"]:focus {
+#textbox2:focus {
   width: 250px;
 }
 .inputbox2 {
@@ -958,7 +969,8 @@ a.effect-underline:hover:after {
 .btn-custom2{
     color: #000000;
     background: #FFED47E0;
-    margin-right:20px
+    margin-right:20px;
+    margin-bottom: 1em;
 }
 .btn-custom2:hover{
     color: #000000;
@@ -985,6 +997,15 @@ a.effect-underline:hover:after {
     font-weight: 900;
     color: white;
     border-bottom: 3px solid #ff8282;
+    margin-top: -1.3em;
+}
+.about-header-a{
+  margin-right: 6.5em;
+  font-family:Nunito;
+  font-weight: 900;
+  color: white !important;
+  border-bottom: 3px solid #ff8282;
+  margin-top: -1.3em;
 }
 .special-c:hover{
     color: greenyellow;
@@ -1018,6 +1039,14 @@ a.effect-underline:hover:after {
     font-weight: 900;
     color: white;
     border-bottom: 3px solid #ff8282;
+}
+
+.about-header-a:hover{
+  margin-right: 6.5em;
+  font-family:Nunito;
+  font-weight: 900;
+  color: white;
+  border-bottom: 3px solid #ff8282;
 }
 /*-----------------------------------*/
 /*History page*/
