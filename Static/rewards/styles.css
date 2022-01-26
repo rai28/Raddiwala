@@ -32,7 +32,7 @@ body {
   color: white;
   border-bottom: 3px solid white;
 }
-h1 > span {
+.name {
   display: inline-block;
   font-size: 2.5rem;
   transition-duration: 500ms;
