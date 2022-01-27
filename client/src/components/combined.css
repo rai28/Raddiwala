@@ -1106,20 +1106,69 @@ a.effect-underline:hover:after {
 /*-----------------------------------*/
 /*History page*/
 
+.line-bottom{
+  
+    margin-left: 35%;
+    margin-right: 43%;
+    margin-bottom:1.5% ;
+}
+
+
 .history-title{
-    color:#ffcc00;
-	text-align: center;
-	font-size: 30px;
+    color:whitesmoke;
+    text-align: center;
+    font-size: 2.6em;
+    border-bottom: 3px solid #ff8282;
+    padding-bottom: 2px;
+    
 }
-table , th , td {
-    border: 1px solid whitesmoke;
-    border-collapse: collapse;
-    margin: 0 auto;
-    line-height: 200%;
-  }
-tr{
-    color:#ffcc00 ;
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
+
+tbody {
+  font-family: 'Nunito', sans-serif;
+  color: #384047;
+}
+
+table {
+  margin: 10px auto;
+  width: 1300px;
+}
+
+
+
+thead th {
+  font-weight: 600;
+  background: #8a97a0;
+  color: #FFF;
+  font-size: 20px;
+}
+
+tr {
+  background: #f4f7f8;
+  border-bottom: 2px solid #FFF;
+  margin-bottom: 5px;
+  font-size: 15px
+}
+
+tr:nth-child(even) {
+  background: #e8eeef;
+}
+
+th, td {
+  text-align: left;
+  padding: 30px;
+  font-weight: 300;
+  border-right: 1px solid #FFF;
+}
+
+
+
+
 /*--------------------------------------*/
 /*REWARDS*/
 .rewards-logo {
