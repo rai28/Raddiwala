@@ -1,8 +1,12 @@
 import React from "react";
+import { useSelector } from "react-redux";
 import Hedaer from "../components/Header/Header";
 import img2 from "../assets/img2.png";
 import img1 from "../assets/img1.png";
+import { Link } from "react-router-dom";
 export default function HomeScreen() {
+  const userSignin = useSelector((state) => state.userSignin);
+  const { userInfo } = userSignin;
   return (
     <div>
       <Hedaer />
@@ -24,9 +28,21 @@ export default function HomeScreen() {
             <span className="img-tags">Bucks</span>
           </div>
           <div className="text-center">
+          {userInfo ? (
+            <div>
+              <Link to="/form1" className="link-sell-now common-link-class">
             <button type="button" className="btn btn-custom btn-lg ">
               Sell Now!
             </button>
+            </Link>
+            </div>
+          ) : (
+            <Link to="/register" className="link-sell-now common-link-class">
+            <button type="button" className="btn btn-custom btn-lg ">
+              Sell Now!
+            </button>
+            </Link>
+          )}
           </div>
         </div>
       </div>

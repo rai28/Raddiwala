@@ -21,12 +21,16 @@ const DashboardBody = () => {
             You have helped in recycling "x"Kgs of waste
           </h2>
           <div className="buttons">
+          <Link to="/form1" className="link-recycle-more common-link-class">
             <button className="button-5" type="button">
               Recycle More
-            </button>
+              </button>
+              </Link>
+            <Link to="/History" className="link-Recycle-History common-link-class">
             <button className="button-6" type="button">
               Recycle History
             </button>
+            </Link>
           </div>
         </div>
         <div className="dashboard-part2">

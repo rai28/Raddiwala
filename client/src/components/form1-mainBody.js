@@ -1,5 +1,6 @@
 import React from "react";
 import "./combined.css"
+import { Link } from "react-router-dom";
 
 const FormMainBody =()=>{
 return (
@@ -38,6 +39,14 @@ return (
 				<input type="radio" name="choose" />Cash 💲
 			</button>
 
+	</div>
+
+	<div class = "form1-continue-btn">
+		<Link to="/datetime" className="common-link-class form1-continue-link">
+		    <button className="form1-continue-button" type="button">
+              Continue!
+            </button>
+		</Link>
 	</div>
 </div>
 );
