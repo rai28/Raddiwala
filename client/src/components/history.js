@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from 'react-router-dom';
 import "./combined.css"
 
 const HistoryComponent =()=>{
@@ -18,7 +19,7 @@ const HistoryComponent =()=>{
           <th>Status</th>
         </tr>
         <tr>
-          <td><a href="#">10001</a></td>
+          <td><Link to ="#">10001</Link></td>
           <td>24-01-2022</td>
           <td>Paper</td>
           <td>10kg</td>

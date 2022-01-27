@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import Header2 from "../components/header2";
+
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import { signin } from "../actions/userActions";
@@ -28,6 +30,7 @@ export default function SigninScreen(props) {
   }, [props.history, redirect, userInfo]);
   return (
     <div>
+      <Header2/>
       <form className="form-register" onSubmit={submitHandler}>
         <div>
           <h1>Sign In</h1>
