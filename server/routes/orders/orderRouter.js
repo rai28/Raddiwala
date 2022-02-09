@@ -1,7 +1,7 @@
 const express = require("express");
 const expressAsyncHandler = require("express-async-handler");
 const isAuth = require("../../middlewares/isAuth");
-const Order = require("../../models/OrdersModel");
+const Order = require("../../models/ordersModel");
 const app = express();
 
 const orderRouter = express.Router();

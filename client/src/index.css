@@ -49,7 +49,7 @@ code {
 }
 
 /* form */
-form {
+.form-register{
   padding: 1rem;
   max-width: 40rem;
   margin: 0 auto;
@@ -57,12 +57,12 @@ form {
   border-radius: 1rem;
 }
 
-form > div {
+.div-in-form{
   display: flex;
   flex-direction: column;
   margin: 1rem;
 }
-form label {
+.register-label{
   margin: 0.5rem 0.5rem 0.5rem 0;
   font-weight: bold;
 }

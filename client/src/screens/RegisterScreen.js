@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import Header2 from "../components/header2";
+
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import { register } from "../actions/userActions";
@@ -34,6 +36,7 @@ export default function RegisterScreen(props) {
   }, [props.history, redirect, userInfo]);
   return (
     <div>
+      <Header2/>
       <form className="form-register" onSubmit={submitHandler}>
         <div>
           <h1>Register Here</h1>
@@ -43,8 +46,8 @@ export default function RegisterScreen(props) {
 
         {/* userName field */}
 
-        <div>
-          <label htmlFor="userName">Name</label>
+        <div className="div-in-form">
+          <label className="register-label" htmlFor="userName">Name</label>
           <input
             type="text"
             id="userName"
@@ -56,8 +59,8 @@ export default function RegisterScreen(props) {
 
         {/* Email address field */}
 
-        <div>
-          <label htmlFor="inputEmail">Email address</label>
+        <div className="div-in-form">
+          <label className="register-label" htmlFor="inputEmail">Email address</label>
           <input
             type="email"
             id="email"
@@ -69,8 +72,8 @@ export default function RegisterScreen(props) {
 
         {/* password */}
 
-        <div>
-          <label htmlFor="inputEmail">Password</label>
+        <div className="div-in-form">
+          <label className="register-label" htmlFor="inputEmail">Password</label>
           <input
             type="password"
             id="password"
@@ -83,8 +86,8 @@ export default function RegisterScreen(props) {
 
         {/* Confirm Password Field */}
 
-        <div>
-          <label htmlFor="confirmPassword">Confirm Password</label>
+        <div className="div-in-form">
+          <label className="register-label" htmlFor="confirmPassword">Confirm Password</label>
           <input
             type="password"
             id="confirmPassword"
@@ -95,13 +98,13 @@ export default function RegisterScreen(props) {
           />
         </div>
 
-        <div>
+        <div className="div-in-form">
           <label />
           <button className="primary" type="submit">
             Register
           </button>
         </div>
-        <div>
+        <div className="div-in-form">
           <label />
           <div className="below-form-note">
             Already a user ?{" "}

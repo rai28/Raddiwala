@@ -1,6 +1,5 @@
 import React from "react";
 import { HashRouter, Route } from "react-router-dom";
-import Header from "./components/Header/Header";
 import Form1 from "./screens/form1";
 import DateTimeForm from "./screens/DateTimeForm";
 import DashBoardScreen from "./screens/DashBoardScreen";
@@ -21,16 +20,24 @@ function App() {
             <Route path="/" component={HomeScreen} exact></Route>
             <Route path="/register" component={RegisterScreen}></Route>
             <Route path="/signin" component={SigninScreen}></Route>
-            <Route path="/DashBoard" component={DashBoardScreen} exact />
-            <Route path="/Form1" component={Form1} exact />
-            <Route path="/Datetime" component={DateTimeForm} exact />
             <Route path="/About" component={AboutPage} exact />
             <Route path="/Rewards" component={Reward} exact />
-            <Route path="/History" component={History} exact />
             {/* private routes */}
             <PrivateRoute
               path="/dashboard"
               component={DashBoardScreen}
+            ></PrivateRoute>
+            <PrivateRoute
+              path="/Form1"
+              component={Form1}
+            ></PrivateRoute>
+            <PrivateRoute
+              path="/Datetime"
+              component={DateTimeForm}
+            ></PrivateRoute>
+            <PrivateRoute
+              path="/History"
+              component={History}
             ></PrivateRoute>
           </main>
         </div>

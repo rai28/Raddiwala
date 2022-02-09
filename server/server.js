@@ -28,7 +28,7 @@ app.use("/api/user", userRouter);
 app.use("/api/order", orderRouter);
 
 // PORT for main server
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5001;
 
 // Start the server
 app.listen(PORT, () => {

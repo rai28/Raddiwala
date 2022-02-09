@@ -16,10 +16,16 @@
 	padding-left: 0;
 	padding-bottom: 1;
 	border-bottom: 3px solid #6FBB33;
-	margin-right:27.7em;
-	margin-left:6.5em;
 	margin-bottom:1.25em;
+  margin-right: 3em;
 	font-weight: 900;
+  text-align: left;
+}
+
+.step1text-div{
+  margin-right: 60em;
+  margin-left: 12em;
+  width:30em;
 }
 
 .step2text{
@@ -27,11 +33,16 @@
 	font-size: 30px;
 	padding-left: 0;
 	padding-top: 2%;
-	margin-right:25.5em;
-	margin-left:6.5em;
 	border-bottom: 3px solid #6FBB33;
 	margin-bottom:1.25em;
+  margin-right: 1.8em;
 	font-weight: 900;
+}
+
+.step2text-div{
+  margin-right: 60em;
+  margin-left: 12em;
+  width:30em;
 }
 
 
@@ -173,6 +184,61 @@
 	  position: relative;
 	  outline: none;
   }
+
+  .form1-continue-button{
+    align-items: center;
+    background-clip: padding-box;
+    background-color: #03a5e6;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: black;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.8;
+    margin: 0;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    border:4px solid rgb(248, 191, 5);
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+    margin-top:7em;
+    margin-left: 22.7em;
+    text-decoration: none !important;
+}
+
+.form1-continue-button:hover,
+.form1-continue-button:focus {
+    background-color: #99F94E;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    text-decoration: none !important;
+}
+
+.form1-continue-button:hover {
+    transform: translateY(-5px);
+}
+
+.form1-continue-button:active {
+    background-color: #99F94E;
+    box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+    transform: translateY(0);
+
+}
+
+.common-link-class{
+  text-decoration: none;
+}
+
 /*---------------------------------------------------*/
 /*date-time-form*/
 
@@ -276,12 +342,12 @@ textarea {
   outline: none;
 }
 
-input[type="text"] {
+#textbox2{
   width: 100px;
   transition: width 0.35s ease-in-out;
 }
 
-input[type="text"]:focus {
+#textbox2:focus {
   width: 250px;
 }
 .inputbox2 {
@@ -410,20 +476,11 @@ input[type="date"] {
 /*-----------------------------*/
 
 .aboutsection-title {
-    position:relative; font-size:20px; font-weight:700;  letter-spacing:0px; text-transform:uppercase; width:350px; text-align:center; margin:auto; white-space:nowrap; border:2px solid rgb(255, 255, 255);padding:5px 11px 3px 11px;
+    position:relative; font-size:20px; font-weight:700;  letter-spacing:0px; text-transform:uppercase; width:350px; text-align:center; margin:auto; white-space:nowrap; border-bottom:3px solid #ef9c9c;padding:5px 11px 3px 11px;
     margin-bottom:75px;
     font-size:35px;
     color:white;  
 }
-  .aboutsection-title:before, .about-div h1:after {
-      background-color: #c50000;
-      position:absolute; 
-      content: '';
-      height: 7px;
-  
-      width: 7px; border-radius:50%;
-      bottom: 12px;
-  }
   .aboutsection-title:before {
      left:-20px;
   }
@@ -967,7 +1024,8 @@ a.effect-underline:hover:after {
 .btn-custom2{
     color: #000000;
     background: #FFED47E0;
-    margin-right:20px
+    margin-right:20px;
+    margin-bottom: 1em;
 }
 .btn-custom2:hover{
     color: #000000;
@@ -994,6 +1052,15 @@ a.effect-underline:hover:after {
     font-weight: 900;
     color: white;
     border-bottom: 3px solid #ff8282;
+    margin-top: -1.3em;
+}
+.about-header-a{
+  margin-right: 6.5em;
+  font-family:Nunito;
+  font-weight: 900;
+  color: white !important;
+  border-bottom: 3px solid #ff8282;
+  margin-top: -1.3em;
 }
 .special-c:hover{
     color: greenyellow;
@@ -1028,23 +1095,80 @@ a.effect-underline:hover:after {
     color: white;
     border-bottom: 3px solid #ff8282;
 }
+
+.about-header-a:hover{
+  margin-right: 6.5em;
+  font-family:Nunito;
+  font-weight: 900;
+  color: white;
+  border-bottom: 3px solid #ff8282;
+}
 /*-----------------------------------*/
 /*History page*/
 
+.line-bottom{
+  
+    margin-left: 35%;
+    margin-right: 43%;
+    margin-bottom:1.5% ;
+}
+
+
 .history-title{
-    color:#ffcc00;
-	text-align: center;
-	font-size: 30px;
+    color:whitesmoke;
+    text-align: center;
+    font-size: 2.6em;
+    border-bottom: 3px solid #ff8282;
+    padding-bottom: 2px;
+    
 }
-table , th , td {
-    border: 1px solid whitesmoke;
-    border-collapse: collapse;
-    margin: 0 auto;
-    line-height: 200%;
-  }
-tr{
-    color:#ffcc00 ;
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
+
+tbody {
+  font-family: 'Nunito', sans-serif;
+  color: #384047;
+}
+
+table {
+  margin: 10px auto;
+  width: 1300px;
+}
+
+
+
+thead th {
+  font-weight: 600;
+  background: #8a97a0;
+  color: #FFF;
+  font-size: 20px;
+}
+
+tr {
+  background: #f4f7f8;
+  border-bottom: 2px solid #FFF;
+  margin-bottom: 5px;
+  font-size: 15px
+}
+
+tr:nth-child(even) {
+  background: #e8eeef;
+}
+
+th, td {
+  text-align: left;
+  padding: 30px;
+  font-weight: 300;
+  border-right: 1px solid #FFF;
+}
+
+
+
+
 /*--------------------------------------*/
 /*REWARDS*/
 .rewards-logo {
@@ -1168,4 +1292,6 @@ tr{
       flex-direction: column;
     }
   }
+
+
   /*----------------------------------------------------*/
