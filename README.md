@@ -1,4 +1,6 @@
 # Raddiwala
+![image](https://user-images.githubusercontent.com/54941875/156980453-ea82a0c3-39bd-4721-bd8c-efe5dfda3609.png)
+
 
 **Ever thought about the scrap at your home and what it can be used for
 Ever thought what can you do with it?
