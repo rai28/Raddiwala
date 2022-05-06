@@ -1,0 +1,8 @@
+{
+    "rewrites": [
+        {
+            "source": "/:match*",
+            "destination": "https://raddiwala-server.herokuapp.com/:match*"
+        }
+    ]
+}
